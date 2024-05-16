@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn1"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#F4F4F4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="onClickButton"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn2"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#F4F4F4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="onClickButton"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn3"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#F4F4F4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="onClickButton"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn4"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#F4F4F4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="onClickButton"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn5"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#F4F4F4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="onClickButton"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn6"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#F4F4F4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="onClickButton"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn7"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#F4F4F4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="onClickButton"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn8"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#F4F4F4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="onClickButton"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn9"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#F4F4F4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="onClickButton"/>
+
+
+    </GridLayout>
+
+</LinearLayout>
